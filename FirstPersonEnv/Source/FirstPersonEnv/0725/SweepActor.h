@@ -39,4 +39,10 @@ public:
 		FBox  myBox;
 	UPROPERTY(EditAnywhere, Category = "Locations")
 		FTransform myTransfrom;
+
+
+	UFUNCTION(BlueprintCallable)
+		void CallSweepMutiLineTrace();
+	UFUNCTION(BlueprintCallable)
+		void CallLineTranceSingle();
 };
